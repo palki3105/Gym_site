@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background: url(./gym\ bg.jpg);
+}
+.container1{
+    display: flex;
+    border: 2px solid rgb(155, 154, 154);
+    justify-content: space-between;
+    background-color: black;
+    margin-top: 50px;
+}
+.logo{
+    align-self: center;
+    font-size: 25px;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a{
+    text-decoration: none ;
+    align-self: center;
+    padding: 10px;
+}
+.container1{
+    flex-wrap: wrap;
+}
+.search{
+    align-self: center;
+}
+.item{
+    /* color: white; */
+}
+.item a{
+    color: white;
+}
+.form{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 100px;
+    /* margin-left: 50px; */
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;  
+    height: 500px;
+    padding-top: 50px;
+}
+.form div{
+    padding: 20px;
+    align-self: center;
+}
+.form input{
+    text-align: center;
+    width: 300px;
+}
+.form h1{
+    text-align: center;
+}
+.submit input{
+    color: white;
+    background-color: black;
+}
+.navbar a:hover, .navbar a.active{
+    color: grey;
+}
+#option{
+    width: 200px;
+}
+.card-header{
+    color: white;
+    background-color: black;
+}
+.w-100{
+    background-color: black;
+}
